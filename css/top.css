@@ -127,9 +127,9 @@ main {
   font-size: 30px;
 }
 
-.skill-text.fadeIn {
+/* .skill-text.fadeIn {
   opacity: 1;
-}
+} */
 
 .service-item {
   display: -webkit-box;
@@ -153,9 +153,9 @@ main {
           flex-direction: row-reverse;
 }
 
-.service-item.fadeIn {
+/* .service-item.fadeIn {
   opacity: 1;
-}
+} */
 
 .sec-margin {
   margin: 200px 0;
@@ -349,5 +349,10 @@ footer ul li a {
   footer ul li a {
     font-size: 12px;
   }
+}
+
+.show {
+  transition: all 2s;
+  opacity: 1;
 }
 /*# sourceMappingURL=top.css.map */
