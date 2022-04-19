@@ -6,10 +6,14 @@ $(function () {
 })
 
 //フェードイン
-$(function () {
-    $('.skill-text,.service-item').on('inview',function(){
-        $(this).addClass('fadeIn')
-    })
+$(function() {
+  $('.skill-text,.service-item').on('inview',function(event,view){
+      if(view)
+      {$(this).addClass('fadeIn')}
+      else{
+          $(this).removeClass('fadeIn')
+      }
+  })
 })
 
 //画像のスライダー
